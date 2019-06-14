@@ -65,7 +65,7 @@ Restarting and re-running the app should work now
 ## Acknowledgments
 
 * Natalie Zayats
-* Dash(https://dash.plot.ly/dash-core-components
+* Dash(https://dash.plot.ly/dash-core-components)
 
 
 
