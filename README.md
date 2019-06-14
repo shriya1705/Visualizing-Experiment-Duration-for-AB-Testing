@@ -8,13 +8,35 @@ Here is an interactive web application that help visualize the experimentation d
 
 # Project Outline 
 
-Determine Sample Size for A/B test using Power Analysis 
+## Determine Sample Size for A/B test using Power Analysis 
+* The conversion rate for each webpage/country pair as been assigned between 1%-10% randomly
+* A significance level of 95% is assumed
+* Probability of accepting null hypothesis has been kept at 20%
+* An Effect Size of 2% (Relative) has been considered
 
-Calculated the Expected Experiment Duration 
+Sample Size calculator available at https://www.evanmiller.org/ab-testing/sample-size.html has been referred.
 
-Visualize Durations to determine the best possible test - The dashboard is available in form of a python application (app.py).Kindly follow the following steps to run the dashboard -
+
+## Calculated the Expected Experiment Duration 
+The expected experiment duration has been calculated by dividing the sample size required for each variation (calculated above) by the webpage traffic per week (given). 
+The units are 'per week'.
+
+
+## Visualize Durations to determine the best possible test 
+The dashboard is available in form of a python application (app.py).Kindly follow the following steps to run the dashboard -
 * Download app.py and map.csv in same location
-* Install the following libraries - Dash, Plotly, & Pandas
+* Install the following libraries - Dash, Plotly, & Pandas. Run following commands in terminal/command_prompt:
+```
+pip install pandas
+```
+```
+pip install Dash 
+```
+```
+pip install plotly
+```
+
+
 * Run the python file in the traditional way
 ```
 $ python app.py
@@ -36,40 +58,14 @@ Restarting and re-running the app should work now
 * For quick reference sake, the screenshots of the Dashboard are available under the folder by the same name.
 
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-# Prerequisites
-
-## Dependencies 
-
-Run following commands in terminal/command_prompt
-
-```
-pip install pandas
-```
-```
-pip install Dash 
-```
-```
-pip install plotly
-```
-
-Recommended IDE to run application : Pycharm CE/Spyder
-
-
-## Built With
-
-* Dash(https://dash.plot.ly/dash-core-components) - The web framework 
-
-
-## Authors
+## Author
 
 * **Shriya Gupta** 
 
 ## Acknowledgments
 
 * Natalie Zayats
+* Dash(https://dash.plot.ly/dash-core-components
 
 
 
