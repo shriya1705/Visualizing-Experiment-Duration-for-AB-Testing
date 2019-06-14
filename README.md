@@ -2,7 +2,9 @@
 
 Helping marketers optimize their experimentation efforts
 
-Conducting A/B test takes lot of effort both in terms of time and money. What if the traffic on your site is really low to conduct an A/B test. Hence, it is important to predetermine the expected experiment duration by estimating the sample size required for the test. This helps marketers to optimize their efforts for choosing the fastest and most efficinet test 
+Conducting A/B test takes lot of effort both in terms of time and money. What if the traffic on your site is really low to conduct an A/B test. Hence, it is important to predetermine the expected experiment duration by estimating the sample size required for the test. This helps marketers to optimize their efforts for choosing the fastest and most efficinet test.
+
+Here is an interactive web application that help visualize the experimentation duration required for different variations of A|B tests. 
 
 # Project Outline 
 
@@ -11,6 +13,7 @@ Determine Sample Size for A/B test using Power Analysis
 Calculated the Expected Experiment Duration 
 
 Visualize Durations to determine the best possible test 
+
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
