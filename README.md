@@ -7,7 +7,9 @@ Conducting A/B test takes an a lot of effort and value in terms of time and mone
 # Project Outline 
 
 Determine Sample Size for A/B test using Power Analysis 
+
 Calculated the Expected Experiment Duration 
+
 Visualize Durations to determine the best possible test 
 
 
