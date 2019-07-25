@@ -7,6 +7,8 @@ Conducting A/B test takes lot of effort both in terms of time and money. What if
 Here is an interactive web application that help visualize the experimentation duration required for different variations of A|B tests. 
 
 # Project Outline 
+## Data Cleaning 
+The data has been handled for any missing values, duplicate entires, text incosistencies and data corruption using Jupyter Notebook. 
 
 ## Determine Sample Size for A/B test using Power Analysis 
 * The conversion rate for each webpage/country pair as been assigned between 1%-10% randomly
